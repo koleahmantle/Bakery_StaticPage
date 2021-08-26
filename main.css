@@ -34,10 +34,6 @@ a, a:visited {
 a:hover {
     color: #301934;
 }
-hr {
-    padding: 0;
-    margin: 0.5em;
-}
 
 
 /* Header */
@@ -115,38 +111,31 @@ nav#socialMenu ul li.acctNav::before, nav#socialMenu ul li input#search::before 
     color: #fcfbe6;
 }
 
-/* Sidebar Section */
-section#sidebar {
-    width: 260px;
-    float: right;
-    position: relative;
-    display: block;
+
+
+/* Main Section */
+.parentPanel, #main{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+}
+#main {
+    width: 60%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+#sidebar {
+    width: 30%;
     background-color: #fff;
-    margin: 1.5em 0 1.5em 1.5em;
     padding: 1.5em 0.5em;
     border: black solid 2px;
 }
-
-/* Main Section */
-section #main {
-    background-color: rgba(252, 251, 243, 0.7);
-    margin: 0 0 3.0em;
-    padding: 1em 0 1.5em 1.5em;
-    display: inline-block;
-    border-radius: 2em;
-    box-shadow: 1px 1px 3px #120314;
-}
-section div.panel {
-    float: left;
-    position: relative;
-    width: 350px;
-    margin: 0 0.5em 1.5emem 0.5em;
+.panel1 {
+    width: 40%;
     padding: 1.0em;
     background-color: rgba(252, 251, 243, 0.7);
     border-radius: 1.0em;
-}
-section div.panel img.favoriteImg {
-    width: 100%;
 }
 
 /* Footer */
@@ -174,10 +163,10 @@ footer ul li::before {
     padding-right: 0.7em;
 }
 footer a, footer a:visited {
-    color: #fff;
+    color: #301934;
     text-decoration: none;
 }
 footer a:hover {
-    color: #fff;
+    color: #301934;
     text-decoration: underline;
 }
