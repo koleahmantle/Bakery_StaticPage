@@ -111,13 +111,12 @@ nav#socialMenu ul li.acctNav::before, nav#socialMenu ul li input#search::before 
     color: #fcfbe6;
 }
 
-
-
 /* Main Section */
 .parentPanel, #main{
     display: flex;
     flex-direction: row-reverse;
     align-content: flex-start;
+    justify-content: center;
 }
 #main {
     width: 60%;
@@ -126,13 +125,13 @@ nav#socialMenu ul li.acctNav::before, nav#socialMenu ul li input#search::before 
     flex-direction: row;
 }
 #sidebar {
-    width: 30%;
+    width: 20%;
     background-color: #fff;
     padding: 1.5em 0.5em;
     border: black solid 2px;
 }
 .panel1 {
-    width: 40%;
+    width: 45%;
     padding: 1.0em;
     background-color: rgba(252, 251, 243, 0.7);
     border-radius: 1.0em;
@@ -140,12 +139,13 @@ nav#socialMenu ul li.acctNav::before, nav#socialMenu ul li input#search::before 
 
 /* Footer */
 footer {
-    background-color: beige;
+    background-color: #E4CFB3;
     height: 24px;
     font-size: 1.5em;
     color: #581F2D;
     text-align: center;
-    padding: 1.3em 2.0em;
+    padding: 0 2em 0.5em;
+    margin: 0 0 2% 0;
 }
 footer ul#menuFooter {
     display: inline-block;
