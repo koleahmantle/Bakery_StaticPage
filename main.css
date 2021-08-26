@@ -1,0 +1,183 @@
+/* Common Elements */
+body {
+    background: #f26b8a url(img/pinkBackgorund.jpg) fixed top center;
+    font-family:cursive;
+    font-size: 80%;
+    padding: 0;
+    margin: 0;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-bakcground-size: 100% 100%;
+}
+h1 {
+    color: rgb(36, 209, 221);
+    font-size: 3em;
+    margin: 0.75em 0.5em;
+    padding: 0;
+}
+h2 {
+    color: rgb(53, 156, 163);
+    margin: 0.5em;
+    padding: 0.5px 0;
+    font-size: 2.0em;
+}
+p {
+    font-size: 1.4em;
+    line-height: 1em;
+    color: #581F2D;
+    margin: 0.5em 0.75em;
+}
+a, a:visited {
+    color: rgb(143, 75, 143);
+}
+a:hover {
+    color: #301934;
+}
+hr {
+    padding: 0;
+    margin: 0.5em;
+}
+
+
+/* Header */
+header {
+    padding: 2.0em 0 0.5em;
+    margin:0 0 0.5em;
+    background: url(img/tealHeader.jpg) center;
+}
+header #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+header form {
+    background-color: white;
+    text-align: center;
+    margin: 0.2em 0 0.2em 0;
+    padding: 0.2em 0;
+}
+
+
+/* Nav Bars */
+nav {
+    color: purple;
+    font-size: 2.0em;
+    padding: 0.5em 1.0em;
+    margin: 0.2em;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+    width: fit-content;
+}
+nav li a:hover {
+    color: #301934;
+    background-color: rgb(218, 210, 210);
+}
+nav #socialMenu {
+    float: right;
+    margin: -2em 0 0 0;
+    padding: 0.25em;
+    background-color: rgb(120, 129, 129);
+    height: 1.5em;
+}
+nav #socialMenu ul li.acctNav a, nav #socialMenu ul li.acctNav a:visited {
+    color: purple;
+    text-decoration: none;
+    display: inline-block;
+    height: 1.5em;
+    padding: 0.25em;
+    margin: -0.5em 0 0 0;
+    font-size: 1em;
+}
+nav #socialMenu ul li.acctNav a.active {
+    color: #301934;
+}
+nav #socialMenu ul li.acctNav a:hover {
+    color: #301934;
+    background-color: rgb(218, 210, 210);
+}
+nav#socialMenu li a, nav#socialMenu li a:visited {padding: 0;}
+nav#socialMenu li a:hover {background-color: transparent;}
+nav#socialMenu ul li input#search {
+    vertical-align: middle;
+    margin: 0 0 0 1.0em;
+}
+nav#socialMenu ul li.acctNav::before, nav#socialMenu ul li input#search::before {
+    content: "| ";
+    color: #fcfbe6;
+}
+
+/* Sidebar Section */
+section#sidebar {
+    width: 260px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    margin: 1.5em 0 1.5em 1.5em;
+    padding: 1.5em 0.5em;
+    border: black solid 2px;
+}
+
+/* Main Section */
+section #main {
+    background-color: rgba(252, 251, 243, 0.7);
+    margin: 0 0 3.0em;
+    padding: 1em 0 1.5em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 3px #120314;
+}
+section div.panel {
+    float: left;
+    position: relative;
+    width: 350px;
+    margin: 0 0.5em 1.5emem 0.5em;
+    padding: 1.0em;
+    background-color: rgba(252, 251, 243, 0.7);
+    border-radius: 1.0em;
+}
+section div.panel img.favoriteImg {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: beige;
+    height: 24px;
+    font-size: 1.5em;
+    color: #581F2D;
+    text-align: center;
+    padding: 1.3em 2.0em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.75em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
