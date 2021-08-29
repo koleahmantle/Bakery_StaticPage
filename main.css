@@ -1,6 +1,6 @@
 /* Common Elements */
 body {
-    background: #f26b8a url(img/pinkBackgorund.jpg) fixed top center;
+    background: #e7899f url(img/pinkBackgorund.jpg) fixed top center;
     font-family:cursive;
     font-size: 80%;
     padding: 0;
@@ -60,8 +60,6 @@ header form {
 nav {
     color: purple;
     font-size: 2.0em;
-    padding: 0.5em 1.0em;
-    margin: 0.2em;
 }
 nav ul {
     margin: 0;
@@ -73,17 +71,30 @@ nav li {
     margin: 0;
     width: fit-content;
 }
+.socialIcon img {
+    width: 50px;
+    /* height: 40%; */
+    border: .5px solid brown;
+    border-radius: 50%;
+}
 nav li a:hover {
     color: #301934;
-    background-color: rgb(218, 210, 210);
+}
+#social1{
+    margin-left: 1200px;
 }
 nav #socialMenu {
-    float: right;
-    margin: -2em 0 0 0;
+  /*  margin: 0;
     padding: 0.25em;
     background-color: rgb(120, 129, 129);
-    height: 1.5em;
+    height: .5em;
+    float: inline-end;*/
+    width: 30px;
+    height: 30px;
+    float: right;
+    background-color: #e789;
 }
+
 nav #socialMenu ul li.acctNav a, nav #socialMenu ul li.acctNav a:visited {
     color: purple;
     text-decoration: none;
@@ -110,7 +121,14 @@ nav#socialMenu ul li.acctNav::before, nav#socialMenu ul li input#search::before 
     content: "| ";
     color: #fcfbe6;
 }
-
+.acctnav{
+    margin-top: -2px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f075b3;
+}
 /* Main Section */
 .parentPanel, #main{
     display: flex;
